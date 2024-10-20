@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Header() {
     return (
             
-                <header className="fixed top-0 left-0 w-full ">
-                    <div className="flex justify-around bg-white mt-5  ">
+                <header className="sticky top-0 left-0 w-full ">
+                    <div className="flex justify-around flex-col items-center gap-4 sm:flex-row bg-white mt-5  ">
                         <div className="text-lg font-bold">
                             <h1>GREENMIND</h1>
                         </div>
@@ -18,7 +18,7 @@ export default function Header() {
                             </nav>
                         </div>
                       
-                        <div className="border-4 px-4 border-black">
+                        <div className="border-2 md:border-4  px-4 border-black">
                             <button><label>search</label></button>
                         </div>
                     </div>
