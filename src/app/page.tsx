@@ -8,7 +8,7 @@ import BestSelling from "./selling/page";
 export default function Main() {
   return (
 
-    <main className="max-w-[1200px]">
+    <main className="max-w-full overflow-hidden mx-auto">
       {/* homepage */}
       <Home />
 
